@@ -22,16 +22,16 @@ namespace Dice_Roller_Lab
                 Console.WriteLine("\nBefore we roll, how many sides would you like your first die to have?\n");
                 var IsNumeric = int.TryParse(Console.ReadLine(), out int dieOne);
                 
-                if (IsNumeric == false) 
+                if (IsNumeric == false || dieOne <= 0) 
                 {
                     Console.WriteLine("\nI'm sorry, I don't think you entered a valid number. Please try again.\n");
                     continue;
-                }
+                } 
 
                 Console.WriteLine("\nHow many sides should your second die have?\n");
                 var IsNumeric2 = int.TryParse(Console.ReadLine(), out int dieTwo);
 
-                if (IsNumeric2 == false)
+                if (IsNumeric2 == false || dieTwo <= 0)
                 {
                     Console.WriteLine("\nI'm sorry, I don't think you entered a valid number. Please try again.\n");
                     continue;
