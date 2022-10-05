@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Dice Roller Lab/1.0.0": {
+        "runtime": {
+          "Dice Roller Lab.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dice Roller Lab/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
